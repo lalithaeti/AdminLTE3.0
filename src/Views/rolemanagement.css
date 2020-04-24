@@ -1,0 +1,91 @@
+.mb-0 > a {
+    display: block;
+    position: relative;
+  }
+  .mb-0 > a:after {
+    content: "\f107"; /* fa-chevron-down */
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 0;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f106"; /* fa-chevron-up */
+  }
+
+
+  .modifybtn{
+     margin-left:750px;
+    color:white;
+    background-color:#3498db ;
+    border:0;
+    text-align: end;
+    border: 2px solid #eff3f5;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.25),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+
+
+
+
+.modifybtn:hover {
+    background:  #0562a0;
+}
+
+.addicon{
+    text-align: right;
+    /* margin-left: 80rem; */
+    margin-right: 2rem;
+  }
+  .addicon i{
+    size: 100px;
+    /* width: 10rem;
+    height: 3rem; */
+    color: #3498db;
+    font-size: 35px;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  .addicon i:hover {
+    color: #0562a0;
+    font-size: 40px;
+}
+
+.col-lg-1{
+    font-size: 30px;
+    color: #1989d4;
+  }
+
+  .form-rounded{
+      border-radius: 2rem;
+      border: 2px solid #3498db;
+      /* background-color: blue; */
+      /* border-color: blue; */
+  }
+
+  .form-rounded:focus {
+      border-color: blue;
+  } 
+  /* .modal-body input[type = "text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #696b6d;
+    padding: 10px 8px;
+    width: 180px;
+    outline: none;
+    color: rgb(45, 42, 59);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.modal-body input[type ="text"]:focus{
+  
+    border-color: #1989d4;
+} */

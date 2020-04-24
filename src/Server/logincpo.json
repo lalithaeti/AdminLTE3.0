@@ -1,0 +1,172 @@
+{ 
+  "statusCode": 200,
+  "message": "Login Successful",
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiI0YTllM2I2Zi04NTIwLTRkMTEtOTIwOC04MmJlZGZlYmEyMTIiLCJlbWFpbElkIjoiYWRtaW5AY25kLmluIiwiY2xpZW50SWQiOiI5ODQzIiwidXNlcklkIjoiOTg0M18zNzEzIiwicm9sZUlkIjoiOTg0M183NTY5IiwiaWF0IjoxNTg2Nzc5ODQxLCJleHAiOjE1ODY3ODM0NDF9.xJTUZ83Kw4nZXthrrTh_MHoJx2sJO3V-JxelbdyhA48",
+  "roleData": [
+    {
+      "moduleName": "ci_home",
+      "moduleDisplayName": "Home",
+      "redirectUrl": "/home",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "create_case",
+      "moduleDisplayName": "Create Case",
+      "redirectUrl": "/createcase",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "review_case",
+      "moduleDisplayName": "Review Case",
+      "redirectUrl": "/reviewcase",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "role_management",
+      "moduleDisplayName": "Role Management",
+      "redirectUrl": "/rolemanagement",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "user_management",
+      "moduleDisplayName": "User Management",
+      "redirectUrl": "/usermanagement",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "case_management",
+      "moduleDisplayName": "Case Management",
+      "redirectUrl": "/casemanagement",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "queue_management",
+      "moduleDisplayName": "Queue Management",
+      "redirectUrl": "/createqueue",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "mail_management",
+      "moduleDisplayName": "Mail Server Management",
+      "redirectUrl": "/mailconfiguration",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "moduleName": "caserule",
+      "moduleDisplayName": "Rule Management",
+      "redirectUrl": "/caserules",
+      "privilege": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "role": {
+    "_id": "5e80bf2c4c52a92f40a71640",
+          "roleId": "9843_4282",
+          "roleName": "cndCpo",
+          "clientId": "9843",
+          "roleDisplayName": "Case Processing Officer",
+          "permissions": [
+            {
+              "moduleName": "ci_home",
+              "moduleDisplayName": "Home",
+              "redirectUrl": "/home",
+              "privilege": [
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "moduleName": "create_case",
+              "moduleDisplayName": "Create Case",
+              "redirectUrl": "/createcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "review_case",
+              "moduleDisplayName": "Review Case",
+              "redirectUrl": "/reviewcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+      }
+    ],
+    "status": "active",
+    "createdBy": "6957_7784",
+    "createdTime": "2020-03-29T15:35:40.396Z",
+    "updatedBy": "6957_7784",
+    "updatedTime": "2020-03-31T10:33:58.591Z"
+  },
+  "userData": {
+    "_id": "5e80c3e64c52a92f40a716d3",
+    "emailId": "cpo@cnd.in",
+    "userId": "9843_3713",
+    "clientId": "9843",
+    "firstName": "Vishal-Adm",
+    "lastName": "cndCpo",
+    "mobileNo": "1234567893",
+    "department": "Medical",
+    "designation": "Case Processing Officer",
+    "roleId": "9843_7569",
+    "status": "active",
+    "parentId": "6957_7784",
+    "createdBy": "6957_7784",
+    "createdTime": "2020-03-29T15:51:01.990Z",
+    "updatedBy": "6957_7784",
+    "updatedTime": "2020-03-29T15:51:01.990Z",
+    "lastLogin": "2020-04-13T10:25:29.069Z"
+  }
+}

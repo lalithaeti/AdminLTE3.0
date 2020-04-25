@@ -124,7 +124,7 @@ export default class Header extends React.Component {
                             <span className="hidden-xs">Alexander Pierce</span>
                         </a>
                         <div className="dropdown-menu dropdown-menu-md dropdown-menu-left">
-                             <span className="dropdown-item dropdown-header">15 Notifications</span> 
+                             {/* <span className="dropdown-item dropdown-header">15 Notifications</span>  */}
                             <div className="dropdown-item dropdown-header"></div>
                             <div className="media">
                                     <img src="../assets/dist/img/user2-160x160.jpg" alt="User Avatar" className="img-size-50 img-circle mr-3" />

@@ -83,17 +83,17 @@ export default class Sidebar extends React.Component {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="#" className="nav-link">
                                     <i className="nav-icon fas fa-copy"></i>
                                     <p>
                                         Main Data
                                     </p>
                                 </a>
-                                <ul className="nav nav-treeview">
+                                <ul className="nav nav-treeview"> */}
                            {roledata}
-         </ul>
-        </li>
+                                {/* </ul>
+                            </li> */}
                             <li className="nav-item">
                                 <a href="/widgets" className="nav-link">
                                     <i className="nav-icon fas fa-th"></i>

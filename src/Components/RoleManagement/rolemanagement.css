@@ -1,0 +1,159 @@
+.mb-0 a {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #2967db;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+.mb-0 a:focus {
+  outline: none !important;
+}
+
+.mb-0 a:hover {
+  text-decoration: none;
+  color: #11429e;
+}
+.mb-0 a {
+    display: block;
+    position: relative;
+}
+.mb-0 a:after {
+   content: "\f078";  
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.mb-0 a[aria-expanded="true"]:after {
+  content: "\f077"; 
+}
+
+  /* / Add Icon ---------------------- / */
+.addicon{
+  text-align: right;
+  margin-right: 2rem;
+
+}
+.addicon i{
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: #3498db;
+}
+  /* /   --------------- Add Icon / */
+
+  /* / Add Button PopUp -------------------- / */
+.modal-body input[type = "text"],
+.modal-body select{
+  border:0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #1989d4;
+  padding: 5px 5px;
+  width: 220px;
+  outline: none;
+  color: rgb(45, 42, 59);
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.modal-body input[type ="text"]:focus,
+.modal-body select:focus{
+    width: 230px;
+    border-color: #146da8;
+    color: #064f80;
+}
+
+/* / ---------------------Add Button PopUp  / */
+.modifybtn {
+    margin-left: 60rem;
+    color:white;
+    background-color:#3498db;
+    border:0;
+    text-align: center;
+    border: 2px solid #eff3f5;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 24px;
+    /* margin-bottom: 1rem; */
+    transition: 0.25s;
+    border-radius: 24px;
+    /* / cursor: pointer; / */
+    box-shadow:0 12px 15px 0 rgba(122, 118, 118, 0.25),0 17px 50px 0 rgba(80, 72, 72, 0.19);
+}
+.modifybtn:hover {
+    background: #1989d4;
+    width: 75px;
+}
+
+/* / edit icon / */
+  .col-lg-1{
+    font-size: 30px;
+    color: #1989d4;
+  }
+
+
+
+  *,*:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .new {
+    padding: 50px;
+  }
+  
+  .permission {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .permission input[type="checkbox"] {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .permission label {
+    position: relative;
+    cursor: pointer;
+    font-size: small;
+  }
+  
+  .permission label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: #0079bf;
+    border: 2px solid #0079bf;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 6px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .permission input[type="checkbox"]:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3.5px;
+    left: 6px;
+    width: 4px;
+    height: 12px;
+    border-radius: 4px;
+    border: solid #f9fbfc;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }

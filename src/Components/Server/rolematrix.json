@@ -1,0 +1,269 @@
+{
+  "statusCode": 200,
+  "success": true,
+  "message": "Role List",
+  "data": [
+    {
+      "clientId": "9843",
+      "clientName": "Church And Dwight",
+      "status": "active",
+      "createdBy": "6957_7784",
+      "roleList": [
+        {
+          "_id": "5e80bf2c4c52a92f40a71640",
+          "roleId": "9843_4282",
+          "roleName": "cndCpo",
+          "clientId": "9843",
+          "roleDisplayName": "Case Processing Officer",
+          "permissions": [
+            {
+              "moduleName": "ci_home",
+              "moduleDisplayName": "Home",
+              "redirectUrl": "/home",
+              "privilege": [
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "moduleName": "create_case",
+              "moduleDisplayName": "Create Case",
+              "redirectUrl": "/createcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "review_case",
+              "moduleDisplayName": "Review Case",
+              "redirectUrl": "/reviewcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "status": "active",
+          "createdBy": "6957_7784",
+          "createdTime": "2020-03-29T15:30:52.943Z",
+          "updatedBy": "6957_7784",
+          "updatedTime": "2020-03-29T15:30:52.943Z"
+        },
+        {
+          "_id": "5e80bf954c52a92f40a7164e",
+          "roleId": "9843_9485",
+          "roleName": "cndQro",
+          "clientId": "9843",
+          "roleDisplayName": "Quality Review Officer",
+          "permissions": [
+            {
+              "moduleName": "ci_home",
+              "moduleDisplayName": "Home",
+              "redirectUrl": "/home",
+              "privilege": [
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "moduleName": "create_case",
+              "moduleDisplayName": "Create Case",
+              "redirectUrl": "/createcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "review_case",
+              "moduleDisplayName": "Review Case",
+              "redirectUrl": "/reviewcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "status": "active",
+          "createdBy": "6957_7784",
+          "createdTime": "2020-03-29T15:32:37.124Z",
+          "updatedBy": "6957_7784",
+          "updatedTime": "2020-03-29T15:32:37.124Z"
+        },
+        {
+          "_id": "5e80bfd94c52a92f40a7165b",
+          "roleId": "9843_5277",
+          "roleName": "cndMro",
+          "clientId": "9843",
+          "roleDisplayName": "Medical Review Officer",
+          "permissions": [
+            {
+              "moduleName": "ci_home",
+              "moduleDisplayName": "Home",
+              "redirectUrl": "/home",
+              "privilege": [
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "moduleName": "create_case",
+              "moduleDisplayName": "Create Case",
+              "redirectUrl": "/createcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "review_case",
+              "moduleDisplayName": "Review Case",
+              "redirectUrl": "/reviewcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "status": "active",
+          "createdBy": "6957_7784",
+          "createdTime": "2020-03-29T15:33:45.505Z",
+          "updatedBy": "6957_7784",
+          "updatedTime": "2020-03-29T15:33:45.505Z"
+        },
+        {
+          "_id": "5e80c04c4c52a92f40a7166c",
+          "roleId": "9843_7569",
+          "roleName": "cndAdmin",
+          "clientId": "9843",
+          "roleDisplayName": "Administrator",
+          "permissions": [
+            {
+              "moduleName": "ci_home",
+              "moduleDisplayName": "Home",
+              "redirectUrl": "/home",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "create_case",
+              "moduleDisplayName": "Create Case",
+              "redirectUrl": "/createcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "review_case",
+              "moduleDisplayName": "Review Case",
+              "redirectUrl": "/reviewcase",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "role_management",
+              "moduleDisplayName": "Role Management",
+              "redirectUrl": "/rolemanagement",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "user_management",
+              "moduleDisplayName": "User Management",
+              "redirectUrl": "/usermanagement",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "case_management",
+              "moduleDisplayName": "Case Management",
+              "redirectUrl": "/casemanagement",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "queue_management",
+              "moduleDisplayName": "Queue Management",
+              "redirectUrl": "/createqueue",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "mail_management",
+              "moduleDisplayName": "Mail Server Management",
+              "redirectUrl": "/mailconfiguration",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "moduleName": "caserule",
+              "moduleDisplayName": "Rule Management",
+              "redirectUrl": "/caserules",
+              "privilege": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "status": "active",
+          "createdBy": "6957_7784",
+          "createdTime": "2020-03-29T15:35:40.396Z",
+          "updatedBy": "6957_7784",
+          "updatedTime": "2020-03-31T10:33:58.591Z"
+        }
+      ]
+    }
+  ]
+}

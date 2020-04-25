@@ -1,18 +1,18 @@
 // $(function () {
-//     $("#example1").DataTable({
-//       "responsive": true,
-//       "autoWidth": false,
-//     });
-//     $('#example2').DataTable({
-//       "paging": true,
-//       "lengthChange": false,
-//       "searching": false,
-//       "ordering": true,
-//       "info": true,
-//       "autoWidth": false,
-//       "responsive": true,
-//     });
+//   $("#example1").DataTable({
+//     "responsive": true,
+//     "autoWidth": false,
 //   });
+//   $('#example2').DataTable({
+//     "paging": true,
+//     "lengthChange": false,
+//     "searching": false,
+//     "ordering": true,
+//     "info": true,
+//     "autoWidth": false,
+//     "responsive": true,
+//   });
+// });
 
 $(document).ready(function() {
   // Setup - add a text input to each footer cell
@@ -30,7 +30,6 @@ $(document).ready(function() {
     'ordering'    : true,
     'info'        : true,
     'autoWidth'   : false,
-    "responsive": true,
     'reSizable'   : true,
     'scrollY'     : 300,
     'scrollX'     : true

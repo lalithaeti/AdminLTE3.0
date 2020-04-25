@@ -1,19 +1,22 @@
 import React from 'react'
-import {Route,BrowserRouter as Router, Switch} from 'react-router-dom';
-import Login from './components/Login'
-import Routes from './Routes'
+import Content from './MainNavbar/Content'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Login from './Login';
+
 class App extends React.Component {
   
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Login} />
-          <Routes />
-        </Switch>
-      </Router>
+    <div>
+      <BrowserRouter>
+      <Switch>
+          <Route exact path="/login" component={Login}/>
+          <Content/>
+      </Switch>
+      </BrowserRouter>
+    </div>
     )
   }
 }
 
-export default App
+export default App;

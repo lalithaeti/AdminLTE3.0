@@ -3,7 +3,7 @@ import React from 'react'
 export default class Header extends React.Component {
     handleSignOut = function () {
         localStorage.clear();
-        window.location.href = "/login";
+        window.location.href = "/";
       }
 
     render() {
@@ -136,7 +136,7 @@ export default class Header extends React.Component {
                                         <p className="text-sm">Member since Nov. 2012</p>
                                         <div className="pull-left">
                                             <a  onClick={this.handleSignOut} className="btn btn-primary btn-flat">Sign out</a>
-                                            <a onClick={this.handleSignOut} href="/forgotpassword" className="btn btn-default">Forgot Password</a>
+                                            {/* <a onClick={this.handleSignOut} href="/forgotpassword" className="btn btn-default">Forgot Password</a> */}
                                         </div>
                                     </div>
                                 </div>

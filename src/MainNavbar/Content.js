@@ -35,6 +35,10 @@ import ProjectEdit from '../Components/Pages/ProjectEdit';
 import ProjectDetails from '../Components/Pages/ProjectDetails';
 import Contacts from '../Components/Pages/Contacts';
 import Search from '../Components/Search/Search';
+<<<<<<< HEAD
+=======
+import Form from '../Components/Validations/Form'
+>>>>>>> a9753cfb4087559c86448a6a1deb0fdaa92d843a
 import Alerts from '../Components/UI/Alerts'
 
   class Content extends Component {
@@ -65,7 +69,7 @@ import Alerts from '../Components/UI/Alerts'
                <Route path="/generalform" component={Generalform}/>
                <Route path="/advancedelements" component={AdvancedElements}/>
                <Route path="/editors" component={Editors}/>
-               <Route path="/validation" component={ValidationForm}/>
+               <Route path="/form" component={Form}/>
                {/* ChartJS Components */}
                <Route path="/chartjs" component={ChartJS}/>
                <Route path="/flot" component={Flot}/>

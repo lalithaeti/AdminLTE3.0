@@ -1,5 +1,6 @@
 import React from 'react';
 var LOGIN_IN = require('../Components/Server/login.json');
+// var LOGIN_IN = require('./login.json');
 
 
 export default class Sidebar extends React.Component {
@@ -13,7 +14,8 @@ export default class Sidebar extends React.Component {
     }
     render() {
         var login=this.state.login
-        var login_in = this.state.login_in
+       
+        var login_in=this.state.login_in
         if(login.role.clientId === login.userData.clientId){
         var roledata = login_in.permissions.map((role)=>{
             if(role.privilege[1] ===1){
@@ -239,6 +241,12 @@ export default class Sidebar extends React.Component {
                                         <a href="/modals" className="nav-link">
                                             <i className="far fa-circle nav-icon"></i>
                                             <p>Modals & Alerts</p>
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a href="/reactToaster" className="nav-link">
+                                            <i className="far fa-circle nav-icon"></i>
+                                            <p>React Toaster</p>
                                         </a>
                                     </li>
                                     <li className="nav-item">

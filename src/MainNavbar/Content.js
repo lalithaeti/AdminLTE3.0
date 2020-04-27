@@ -36,6 +36,7 @@ import ProjectDetails from '../Components/Pages/ProjectDetails';
 import Contacts from '../Components/Pages/Contacts';
 import Search from '../Components/Search/Search';
 import Form from '../Components/Validations/Form'
+import Alerts from '../Components/UI/Alerts'
 
   class Content extends Component {
 
@@ -84,6 +85,7 @@ import Form from '../Components/Validations/Form'
                <Route path="/projectedit" component={ProjectEdit}/>
                <Route path="/projectdetails" component={ProjectDetails}/>
                <Route path="/contacts" component={Contacts}/>
+               <Route path="/reactToaster" component={Alerts}/>
             </Switch>
         </Fragment>
     </BrowserRouter>

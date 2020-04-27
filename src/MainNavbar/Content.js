@@ -35,6 +35,7 @@ import ProjectEdit from '../Components/Pages/ProjectEdit';
 import ProjectDetails from '../Components/Pages/ProjectDetails';
 import Contacts from '../Components/Pages/Contacts';
 import Search from '../Components/Search/Search';
+import Form from '../Components/Validations/Form'
 
   class Content extends Component {
 
@@ -64,7 +65,7 @@ import Search from '../Components/Search/Search';
                <Route path="/generalform" component={Generalform}/>
                <Route path="/advancedelements" component={AdvancedElements}/>
                <Route path="/editors" component={Editors}/>
-               <Route path="/validation" component={ValidationForm}/>
+               <Route path="/form" component={Form}/>
                {/* ChartJS Components */}
                <Route path="/chartjs" component={ChartJS}/>
                <Route path="/flot" component={Flot}/>

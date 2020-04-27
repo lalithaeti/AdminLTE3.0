@@ -289,7 +289,7 @@ export default class Sidebar extends React.Component {
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="/validation" className="nav-link">
+                                        <a href="/form" className="nav-link">
                                             <i className="far fa-circle nav-icon"></i>
                                             <p>Validation</p>
                                         </a>

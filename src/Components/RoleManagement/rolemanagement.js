@@ -76,7 +76,7 @@ class Rolemanagement extends Component {
                     {permissions(role.permissions, roleIndex, clientIndex, that)}
                   </tbody>
                 </table>
-                <button type="submit" className="modifybtn" >Modify</button>
+                <button type="submit" className="modifybtn">Modify</button>
 
               </div>
             </div>

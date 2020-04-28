@@ -35,11 +35,9 @@ import ProjectEdit from '../Components/Pages/ProjectEdit';
 import ProjectDetails from '../Components/Pages/ProjectDetails';
 import Contacts from '../Components/Pages/Contacts';
 import Search from '../Components/Search/Search';
-<<<<<<< HEAD
-=======
-import Form from '../Components/Validations/Form'
->>>>>>> a9753cfb4087559c86448a6a1deb0fdaa92d843a
-import Alerts from '../Components/UI/Alerts'
+
+import Form from '../Components/Validations/Form';
+import Alerts from '../Components/UI/Alerts';
 
   class Content extends Component {
 

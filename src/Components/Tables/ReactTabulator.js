@@ -21,7 +21,7 @@ const data = [
     name: "Oli Bob",
     age: "12",
     col: "red",
-    dob: "",
+    dob: "28/06/1990",
     rating: 5,
     passed: true
   },

@@ -35,7 +35,6 @@ import ProjectEdit from '../Components/Pages/ProjectEdit';
 import ProjectDetails from '../Components/Pages/ProjectDetails';
 import Contacts from '../Components/Pages/Contacts';
 import Search from '../Components/Search/Search';
-
 import Form from '../Components/Validations/Form';
 import Alerts from '../Components/UI/Alerts';
 

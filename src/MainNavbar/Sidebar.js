@@ -40,7 +40,7 @@ export default class Sidebar extends React.Component {
                                 </a>
                             </li>)
                     }
-                    return list
+                return list
                 }
                 return (
                     <li className="nav-item has-treeview" key={name}>
